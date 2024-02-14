@@ -16,7 +16,7 @@
     <artifactId>moquette-parent</artifactId>
 
     <packaging>pom</packaging>
-    <version>0.17</version>
+    <version>0.17-smart2i</version>
     <name>Moquette MQTT</name>
     <description>Moquette lightweight MQTT Broker</description>
     <inceptionYear>2011</inceptionYear>
@@ -54,8 +54,9 @@
 
     <modules>
         <module>broker</module>
-        <module>distribution</module>
+<!--        <module>distribution</module>
         <module>embedding_moquette</module>
+        -->
     </modules>
 
     <dependencies>
